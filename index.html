@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calistoga&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class=".container-fluid main-container">
@@ -51,7 +54,7 @@
               </video> 
           </div>
           <div id="aboutus" class="row shadow-lg p-3 mb-5 bg-body-tertiary rounded about-us-container">
-            <h1>About Us</h1>
+            <h1 class="section-headings">Who We Are</h1>
             <p>TNT Arena believes that dance is a universal language that transcends barriers and brings people together. 
                we strive to create captivating dance experiences that inspire and engage audiences of all ages and backgrounds.
                 Our enthusiastic instructors are passionate about sharing their knowledge and love for various dance styles,
@@ -59,27 +62,64 @@
           </div>
           <div id="ourservice" class="row  our-service-container">
             <div>
-              <h1 class="our-service-heading">Our Services</h1>
+              <h1 class="our-service-heading section-headings" id="what-we-offer">What We Offer</h1>
             </div>
-            <div class="row our-service our-service-1">
-              We offer a diverse range of dance styles to suit different preferences and interests. 
-            </div>
-            <div class="row our-service our-service-2">
-              We offer a diverse range of dance styles to suit different preferences and interests. 
-            </div>
-            <div class="row our-service our-service-3">
-              We offer a diverse range of dance styles to suit different preferences and interests. 
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Marriage Dance Choreography</h5>
+                    <p class="card-text">We specialize in creating enchanting and unforgettable marriage dance events. 
+                      From personalized choreography and captivating performances to engaging guest participation, we ensure a celebration filled with joy, love, and cherished memories. 
+                      Our team helps to curate a seamless and extraordinary experience that transcends expectations. 
+                      Contact us today and let us bring the magic to your special day.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Dance Class</h5>
+                    <p class="card-text">Join our classes for all ages and skill levels.
+                      Don't let the rhythm wait any longer! Join our dance classes today and embark on a transformative journey of self-expression, fitness, and creativity. 
+                      Whether you're looking to dance for fun, fitness, or dreams of the stage, [Your Dance Studio Name] 
+                      is here to guide you every step of the way.
+                      Flexible schedules and performance opportunities available. Embrace self-expression and fitness.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">DJ Services</h5>
+                    <p class="card-text">Our skilled DJs are experts in creating an electrifying atmosphere.
+                       We collaborate with you to curate a personalized
+                        playlist that includes your favorite songs and genres,
+                       catering to the musical tastes of you and your guests.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div id="location" class="contact-container row">
+          <div class="meet-the-team">
             <div>
-              <h1 class="our-location-heading">Location</h1>
+              <h1 class="section-headings">Meet the Team</h1>
+              <img class="meet-the-team-image img-fluid" src="/Image/grp_photo_temp.png" class="card-img-top" alt="...">
             </div>
+          </div>
+          <div class="contact-us contact-us-container">
+            <div class="row shadow-lg p-3 mb-5 bg-body-tertiary rounded conatct-us-text">
+              <div>
+                <h1 class="section-headings">Contact Us</h1>
+              </div>
+              <p><b>Mobile Number</b> : 082202 53327</p>
+              <p><b>Address</b>      : Sriram Nagar, Thangavel Nagar, Alagapuram Periyaputhur, Salem, Tamil Nadu 636016</p>
               <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.2462051500193!2d78.13546747492161!3d11.67695578853196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf17744d953b3%3A0xf5c890cf87bbb4ae!2sTNT%20ARENA!5e0!3m2!1sen!2sin!4v1685095708267!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
           <div id="follous" class="row footer-container">
-            <h1 class="footer-text">Follow us on</h1>
+            <h1 class="footer-text section-headings">Connect with Us</h1>
             <footer class="bg-black text-center text-white">
               <!-- Grid container -->
               <div class="container p-4 pb-0">
@@ -119,10 +159,15 @@
                     role="button"
                     ><i class="fab fa-instagram"></i
                   ></a>
+                  
                 </section>
                 <!-- Section: Social media -->
               </div>
             </footer>
+          </div>
+          <div class="grid row">
+            <button class="col-6 btn btn-primary footer-bottom-buttons" id="call-button" type="button"><i class="fas fa-phone"></i><a href="tel:123-456-7890">  CALL US</a></button>
+            <button class="col-6 btn btn-primary footer-bottom-buttons" id="whatsapp-button" type="button"><i class="fab fa-whatsapp"></i><a href="tel:123-456-7890">  WHATSAPP US</a></button>
           </div>
     </div>
     <script src="https://kit.fontawesome.com/bbfd51c613.js" crossorigin="anonymous"></script>

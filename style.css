@@ -32,8 +32,12 @@ body{
 
 h1{
   font-weight: 900;
-  color: red;
   text-align: center;
+}
+
+.section-headings{
+  font-family: 'Satisfy', cursive;
+  color: #d64045;
 }
 
 .first-video{
@@ -55,64 +59,37 @@ h1{
 }
 
 .our-service-container{
-  background-color: white;
+  background-image: url(/Image/dancefloor.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
   padding: 8%;
   margin: 0;
 }
 
-
-
-.our-service-1{
-  margin: auto;
-  margin-bottom: 5%;
-  background-color: #cdb4db;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+#what-we-offer{
+  color: white !important;
+  padding-top: 2%;
+  text-align: center;
 }
 
-.our-service-2{
-  margin: auto;
-  margin-bottom: 5%;
-  background-color: #ffc8dd;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-}
-
-.our-service-3{
-  margin: auto;
-  margin-bottom: 5%;
-  background-color: #bde0fe;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-
-}
-
-.contact-container{
-  background-color: black;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 .gmap{
   width:100%;
   height: 30vh;
   margin: 0;
 }
 
-.our-service-heading{
-  color: black;
-  padding-top: 2%;
-  text-align: center;
+.meet-the-team{
+  color: white;
+  margin: 5%;
 }
+
+.meet-the-team-image{
+  height: 50vh;
+}
+
 
 .footer-container{
   background-color: black;
-}
-
-.our-location-heading{
-  color: white;
-  padding-top: 2%;
-  text-align: center;
-}
-
-.footer-container{
   padding: 2%;
   color: white;
 }
@@ -123,4 +100,29 @@ h1{
 
 .company-name{
   text-align: center;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottom-buttons{
+  border-radius: 0;
+  margin: 0;
+}
+
+#call-button{
+  background-color: #ffc300;
+  color: black !important;
+}
+
+#whatsapp-button{
+  background-color:#29bf12;
+  color: black !important;
+}
+
+.card-title{
+  color: #d64045;
+  font-weight: 700;
 }
