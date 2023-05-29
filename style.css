@@ -59,7 +59,7 @@ h1{
 }
 
 .our-service-container{
-  background-image: url(Image/dancefloor.jpg);
+  background-image: url(../Image/dancefloor.jpg); 
   background-repeat: no-repeat;
   background-size:cover;
   padding: 8%;
@@ -104,7 +104,6 @@ h1{
 
 a:link{
   text-decoration: none;
-  color: black;
 }
 
 .footer-bottom-buttons{
@@ -117,11 +116,18 @@ a:link{
   color: black !important;
 }
 
+#call-button a:link{
+  color: black !important;
+}
+
 #whatsapp-button{
   background-color:#29bf12;
   color: black !important;
 }
 
+#whatsapp-button a:link{
+  color: black !important;
+}
 .card-title{
   color: #d64045;
   font-weight: 700;
