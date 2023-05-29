@@ -37,7 +37,7 @@ h1{
 
 .section-headings{
   font-family: 'Satisfy', cursive;
-  color: #d64045;
+  color: white
 }
 
 .first-video{
@@ -54,8 +54,10 @@ h1{
 }
 
 .about-us-container{
-  margin: 4%;
+  margin: 0;
+  padding: 3%;
   background-color: black;
+  color: white;
 }
 
 .our-service-container{
@@ -87,28 +89,41 @@ h1{
   height: 50vh;
 }
 
-
-.footer-container{
-  background-color: black;
-  padding: 2%;
-  color: white;
-}
-
-.footer-text{
-  color: white;
-}
-
 .company-name{
   text-align: center;
 }
 
+.card-title{
+  color: #d64045;
+  font-weight: 700;
+}
+
+.social-media-container{
+  background-color: white;
+  color: black;
+  
+}
+
+.contact-us-container{
+  background-color: white;
+  padding: 4%;
+}
+
+.footer-container{
+  display: flex;
+  margin: 0%;
+}
 .footer-bottom-buttons{
   border-radius: 0;
-  margin: 0;
+  flex-direction: column;
 }
 
 #call-button{
   background-color: #ffc300;
+  color: black !important;
+}
+
+#contact-us-heading{
   color: black !important;
 }
 
@@ -125,8 +140,4 @@ h1{
 #whatsapp-button a:link{
   color: black !important;
   text-decoration: none;
-}
-.card-title{
-  color: #d64045;
-  font-weight: 700;
 }
