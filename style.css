@@ -59,7 +59,7 @@ h1{
 }
 
 .our-service-container{
-  background-image: url(/Image/dancefloor.jpg);
+  background-image: url(Image/dancefloor.jpg);
   background-repeat: no-repeat;
   background-size:cover;
   padding: 8%;
