@@ -102,10 +102,6 @@ h1{
   text-align: center;
 }
 
-a:link{
-  text-decoration: none;
-}
-
 .footer-bottom-buttons{
   border-radius: 0;
   margin: 0;
@@ -118,6 +114,7 @@ a:link{
 
 #call-button a:link{
   color: black !important;
+  text-decoration: none;
 }
 
 #whatsapp-button{
@@ -127,6 +124,7 @@ a:link{
 
 #whatsapp-button a:link{
   color: black !important;
+  text-decoration: none;
 }
 .card-title{
   color: #d64045;
